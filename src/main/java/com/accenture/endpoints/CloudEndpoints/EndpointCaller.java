@@ -18,7 +18,7 @@ public class EndpointCaller {
 		return new HelloClass();
 	}
 	
-	@ApiMethod(name="helloAccenture", path="helloAccenture",
+	@ApiMethod(name="helloAccenture", path="helloName",
 			httpMethod = HttpMethod.GET)
 	
 	public HelloClass sayHelloName(@Named("name") String name) {
